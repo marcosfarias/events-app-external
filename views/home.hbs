@@ -7,11 +7,11 @@
         <p>Likes: {{ likes }}
         <form method="POST" action="/event/like">
         <input type="hidden" value="{{id}}" name="id">
-        <input type="submit" value="Like">
+        <input type="submit" value="Curtir">
         </form>
         <form method="POST" action="/event/unlike">
         <input type="hidden" value="{{id}}" name="id">
-        <input type="submit" value="UN-Like">
+        <input type="submit" value="Descurtir">
         </form>
         </p>
     </li>
